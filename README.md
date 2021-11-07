@@ -1,6 +1,6 @@
 # basic-auth
 
-* [GitHub Repo Link](https://github.com/samahhamed227/basic-auth)
+* [GitHub Repo Link](https://github.com/samahhamed227/basic_auth)
 
 * [Pull Request](https://github.com/samahhamed227/basic_auth/pull/1)
 
