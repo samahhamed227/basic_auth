@@ -2,11 +2,9 @@
 
 * [GitHub Repo Link](https://github.com/samahhamed227/basic_auth)
 
-* [Pull Request](https://github.com/samahhamed227/basic_auth/pull/1)
-
 * [Heroku Link](https://samah-auth.herokuapp.com/) :
 
-
+*[Test](https://github.com/samahhamed227/basic_auth/actions)
 
 ##### Setup
 `.env` requirements
@@ -21,7 +19,7 @@
 Returns Object
 
 >{
-  "domain": "",
+  "domain": "https://basic-express-serv.herokuapp.com/status",
   "status": "running",
   "port": 3000
 }
@@ -52,13 +50,15 @@ Returns
 ***If the user not existed***
 Returns Object
 > {
-    "id": 4,
+    "id": 1,
     "userName": "",
     "userPassword": "",
     "updatedAt": "",
     "createdAt": ""
 }
 
+# uml 
+![](samahuml.png)
 ***If the user is existed***
 
 Returns
