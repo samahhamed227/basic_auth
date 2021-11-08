@@ -3,10 +3,10 @@
 require('dotenv').config();
 
 
-const POSTGRES_URI = process.env.POSTGRES_URI || "postgres://samah@localhost:5432/authdb";
+const DATABASE_URL = process.env.DATABASE_URL || "postgres://samah@localhost:5432/authdb";
 
 const { Sequelize, DataTypes } = require('sequelize');
-var sequelize = new Sequelize(POSTGRES_URI, {});
+var sequelize = new Sequelize(DATABASE_URL, {});
 
 const Users = require('./users-model');
 const Collection = require('./library/collection');
